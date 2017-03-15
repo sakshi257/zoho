@@ -68,7 +68,7 @@ void main()
     printf("enter the element to be searched\n");
     scanf("%d",&f);
     j=search(f);
-    if(j>0))
+    if(j>0)
     {
         printf("the element is present at the index %d\n",j);
     }
