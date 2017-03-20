@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-    int a[20],i,j,temp,n;
+    int a[20],i,j,temp,n,flag=0;
     printf("enter the length of the array\n");
     scanf("%d",&n);
     for(i=0;i<n;i++)
@@ -35,5 +35,9 @@ void main()
             printf("%d",a[i]);
             break;
         }
+    }
+    if(flag==0)
+    {
+        printf("the second biggest even number is not present");
     }
 }
